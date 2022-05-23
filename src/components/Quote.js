@@ -1,8 +1,8 @@
-function Quote() {
+function Quote({ data }) {
   return (
     <div>
-      <blockquote>This is the quote</blockquote>
-      <p>Name of quote</p>
+      <blockquote>{data.quote}</blockquote>
+      <p>{data.name}</p>
     </div>
   )
 }
